@@ -6,28 +6,35 @@ grid-template-columns: 20% 80%;
 grid-template-rows: 25% 15% 25% 25% ;
 }
 h1{
+margin-top: 0%;
+font-family: rowdies;
+color: rgb(20, 55, 121);
 grid-column: 2/3;
 margin-left:25px;
 font-size: 60px;
+letter-spacing: 5px;
 }
 header{
 grid-column: 2/3;
 margin-left:25px;
 }
 h2{
+color:  rgb(20, 55, 121);
 grid-column: 1/2;
 grid-row: 2/3;
 text-align: center;
 }
 .contactinfo{
+font-family: cursive;
 grid-column:1/2;
 grid-row: 3/6;
 text-align: center;
 margin-left: 0;
-background-color: blue;
-color:white;
+background-image: linear-gradient(blue, rgb(0, 217, 255));
+color: white;
+padding: 25px;
 }
-h3{
+.contactinfo h3{
 grid-column: 2/3;
 }
 .head-shot{
@@ -38,12 +45,18 @@ margin-left:35px;
 .expertise{
 margin-left: 25px;
 }
+.grid-container h3{
+text-shadow: 1px 1px  rgb(20, 55, 121);
+letter-spacing: 2px;
+}
 .prohistory{
 margin-left: 25px;
 }
 .eduhistory{
+margin-top: auto;
 margin-left: 25px;
 }
 .material-icons{
 color: white;
+margin: 10px;
 }
