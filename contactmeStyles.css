@@ -1,0 +1,24 @@
+body{
+display: flex;
+flex-direction: column;
+}
+header{
+  text-align: center;
+  background-color: orange;
+}
+main{
+  background-color: green;
+}
+button{
+  width: 100px;
+}
+#hear{
+  text-align: center;
+background-color: yellow;
+}
+#contactyou{
+  background-color: pink;
+}
+#birthday{
+  background-color: purple;
+}
