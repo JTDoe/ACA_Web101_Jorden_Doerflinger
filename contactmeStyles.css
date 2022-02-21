@@ -1,24 +1,44 @@
-body{
-display: flex;
-flex-direction: column;
+form{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 35% 1fr 1fr 1fr;
 }
+
 header{
+  color: white;
+  text-shadow: 3px 3px black;
   text-align: center;
-  background-color: orange;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-image: url(Houston.jpg);
+  background-position: 600em;
 }
-main{
-  background-color: green;
-}
+
 button{
   width: 100px;
+  height: 25px;
 }
+
 #hear{
-  text-align: center;
-background-color: yellow;
+grid-column: 1/2;
+grid-row: 2/3;
 }
+
 #contactyou{
-  background-color: pink;
+  padding-top: 50px;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
+
 #birthday{
-  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  grid-row: 3/4;
+  grid-column: 1/3;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+}
+button{
+  margin-top: 25px;
 }
