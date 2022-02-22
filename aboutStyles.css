@@ -81,6 +81,7 @@ display: grid;
 grid-template-rows: 1fr;
 grid-template-columns: 1fr 1fr 1fr;
 padding: 10px;
+position: relative;
 }
 img {
 display: flex;
@@ -92,6 +93,7 @@ grid-column: 1/2;
 color: white;
 text-align: center;
 }
+
 .bothkids{
 grid-column: 2/3;
 color: white;
@@ -102,21 +104,27 @@ grid-column: 3/4;
 color: white;
 text-align: center;
 }
+span{
+display: absolute;
+}
 @media (max-width: 576px){
 main{
-display: grid;
+    display: flex;
+    flex-direction: column;
+/* display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: 1fr;
+grid-template-rows: 1fr; */
 width: 100%;
 }
 footer{
-display: grid;
+    display: flex;
+    flex-direction: column;
+/* display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: 1fr;
+grid-template-rows: 1fr; */
 width: 100%;
 }
 img{
-width: 100%;
-}
+width: 100%;}
 
 }
