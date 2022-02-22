@@ -12,6 +12,7 @@ header{
   grid-row: 1/2;
   background-image: url(Houston.jpg);
   background-position: 600em;
+  font-size: x-large;
 }
 
 button{
@@ -20,17 +21,25 @@ button{
 }
 
 #hear{
+padding-top: 50px;
+background-color:lightgrey;
 grid-column: 1/2;
 grid-row: 2/3;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: x-large;
 }
 
 #contactyou{
+  background-color: lightgrey;
   padding-top: 50px;
   grid-column: 2/3;
   grid-row: 2/3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
 }
 
 #birthday{
+  background-color: lightgrey;
   display: flex;
   flex-direction: column;
   grid-row: 3/4;
@@ -38,7 +47,18 @@ grid-row: 2/3;
   text-align: center;
   align-items: center;
   padding-top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 button{
   margin-top: 25px;
+  background-color: cyan;
+  font-size: medium;
+}
+@media (max-width: 500px) {
+ form{ 
+  display: flex;
+  flex-direction: column;
+ }
+
+
 }
